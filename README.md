@@ -7,9 +7,9 @@
 
 利用Java反序列化时TemplatesImpl类加载字节码实现的内存马示例
 
-**JavaMemShell-Web**
+**Server-Dmeo**
 
-Spring 5.2.3 和Tomcat8服务端的Demo，接受参数进行反序列化，整理后上传。
+Spring 5.2.3 和Tomcat8服务端的Demo，接受参数进行反序列化，
 
 ## Java内存马类型
 
