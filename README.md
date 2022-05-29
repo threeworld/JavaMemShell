@@ -46,7 +46,8 @@ static {
 获取request和response，执行命令并进行回显的逻辑在 `doFilter`，`requestDestroyed` ，`service`等方法中，如有需要自行替换，示例：
 
 ```java
-public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
+public void service(ServletRequest servletRequest, ServletResponse servletResponse) 
+                        throws ServletException, IOException {
         HttpServletRequest request = (HttpServletRequest)servletRequest;
         HttpServletResponse response =  (HttpServletResponse)servletResponse;
 
